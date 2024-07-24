@@ -14,7 +14,7 @@ const Divider: React.FC<DividerProps> = ({
     orientation === 'horizontal'
       ? 'border-t'
       : 'border-l';
-  const colorClasses = 'border-gray-900'; // Default color
+  const colorClasses = 'border-primary'; // Default color
   const thicknessClasses = 'border'; // Default thickness
 
   return (

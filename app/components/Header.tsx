@@ -12,7 +12,7 @@ const Header: React.FC = () => {
  return (
     <section>
 
-    <nav className="bg-white border-gray-200 px-4 lg:px-40 mt-5 dark:bg-gray-800 flex justify-between items-center">
+    <nav className="bg-white shadow px-4 lg:px-40 mt-5 dark:bg-gray-800 flex justify-between items-center">
         <a href="/" className="flex items-center">
           <Image src="/logo.svg" alt="Logo" width={60} height={60} className="h-6 sm:h-9" />
         </a>

@@ -9,12 +9,10 @@ const Hero: React.FC = () => {
   return (
     <div className="relative overflow-hidden w-full">
       {/* Hero Section */}
-      <div className="py-24 lg:py-32">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-            {heroData.title1}
-          </h1>
-          <p className="mt-3 font-body text-lg text-muted-foreground">
+      <div className="w-full">
+        <div className="max-w-4xl mx-auto ">
+         
+          <p className="mt-3 font-body text-xl text-muted-foreground">
             {heroData.subtitle1}
           </p>
         </div>
@@ -33,11 +31,9 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-        <div>
- <Divider />
-</div>
+
       {/* Our Profile Section */}
-      <div className="mt-16 max-w-4xl mx-auto flex flex-col md:flex-row items-start">
+      <div className="mt-40 max-w-5xl mx-auto flex flex-col md:flex-row items-start">
         {/* Left Block */}
         <div className="flex-1 text-center md:text-left mb-8 md:mb-0">
           <h2 className="text-5xl text-primary font-bold">{heroData.title2}</h2>
@@ -49,11 +45,14 @@ const Hero: React.FC = () => {
           <Divider />
           <a
             href="/profile"
-            className="inline-block mt-4 px-6 py-3 font-body text-white bg-primary hover:bg-white  hover:text-primary border-2 rounded"
+            className="inline-block mt-4 px-6 py-3 font-body text-white bg-primary hover:bg-white  hover:text-primary  rounded"
           >
             Read More
           </a>
         </div>
+      </div>
+      <div className='py-5'>
+       <Divider />
       </div>
     </div>
   );

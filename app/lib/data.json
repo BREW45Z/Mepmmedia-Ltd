@@ -2,17 +2,28 @@
     "hero": {
       "title1": "Welcome to Mepmmedia Multimedia Solutions",
       "title2": "Our Profile",
-      "subtitle1": "At MEP Multimedia Solutions, we are dedicated to unlocking Africa's immense potential by combining strategic communications with cutting-edge digital technologies.",
-      "subtitle2": "Our projects make a lasting impact, from educational initiatives and healthcare communication programs to sustainable development efforts. We employ state-of-the-art digital tools such as data analytics, AI-driven solutions, and cloud computing to provide our clients with a competitive edge. Our mastery in strategic communications helps clients build and maintain a powerful reputation through comprehensive plans, media relations, and crisis management. At MEP Multimedia Solutions, we believe that innovation, when combined with effective communication, drives progress and development. ",
-
+      "subtitle1": "At MEP Multimedia Solutions, we are dedicated to unlocking Africa's immense potential by combining strategic communications with cutting-edge digital technologies.",
+      "subtitle2": "strategies that yield real results. By promoting inclusivity, we ensure that growth opportunities are accessible to all, collaborating with local communities, industry leaders, and policymakers. Our projects make a lasting impact, from educational initiatives and healthcare communication programs to sustainable development efforts. We employ state-of-the-art digital tools such as data analytics, AI-driven solutions, and cloud computing to provide our clients with a competitive edge. Our mastery in strategic communications helps clients build and maintain a powerful reputation through comprehensive plans, media relations, and crisis management. At MEP Multimedia Solutions, we believe that innovation, when combined with effective communication, drives progress and development.",
       "imageSrc": "/banner-art.svg",
       "altText": "hero-banner"
     },
-    "anotherComponent": {
-      "title": "Another Component Title",
-      "description": "Description for another component.",
-      "imageSrc": "https://placehold.co/600x400",
-      "altText": "Another Image Description"
+
+    "services": {
+      "title": "Our Services",
+      "list": [
+        {
+          "title": "Strategic Communication",
+          "description": "Description for service 1.",
+          "imageSrc": "/event-2.jpg",
+          "altText": "Service 1 Image"
+        },
+        {
+            "title": "Event Management",
+            "description": "Description for service 2.",
+            "imageSrc": "/event.jpg",
+            "altText": "Service 1 Image"
+          }
+      ]
     }
   }
   
