@@ -1,0 +1,18 @@
+{
+    "hero": {
+      "title1": "Welcome to Mepmmedia Multimedia Solutions",
+      "title2": "Our Profile",
+      "subtitle1": "At MEP Multimedia Solutions, we are dedicated to unlocking Africa's immense potential by combining strategic communications with cutting-edge digital technologies.",
+      "subtitle2": "Our projects make a lasting impact, from educational initiatives and healthcare communication programs to sustainable development efforts. We employ state-of-the-art digital tools such as data analytics, AI-driven solutions, and cloud computing to provide our clients with a competitive edge. Our mastery in strategic communications helps clients build and maintain a powerful reputation through comprehensive plans, media relations, and crisis management. At MEP Multimedia Solutions, we believe that innovation, when combined with effective communication, drives progress and development. ",
+
+      "imageSrc": "/banner-art.svg",
+      "altText": "hero-banner"
+    },
+    "anotherComponent": {
+      "title": "Another Component Title",
+      "description": "Description for another component.",
+      "imageSrc": "https://placehold.co/600x400",
+      "altText": "Another Image Description"
+    }
+  }
+  
