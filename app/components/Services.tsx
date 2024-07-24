@@ -41,10 +41,14 @@ const Services: React.FC = () => {
             Read More
           </a>
             </div>
+           
 
           </div>
         </div>
       </div>
+      <div>
+                <Divider />
+            </div>
     </div>
   );
 };

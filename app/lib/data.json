@@ -7,7 +7,6 @@
       "imageSrc": "/banner-art.svg",
       "altText": "hero-banner"
     },
-
     "services": {
       "title": "Our Services",
       "list": [
@@ -18,12 +17,37 @@
           "altText": "Service 1 Image"
         },
         {
-            "title": "Event Management",
-            "description": "Description for service 2.",
-            "imageSrc": "/event.jpg",
-            "altText": "Service 1 Image"
-          }
+          "title": "Event Management",
+          "description": "Description for service 2.",
+          "imageSrc": "/event.jpg",
+          "altText": "Service 1 Image"
+        }
       ]
+    },
+    "ourClientele": {
+        "title": "Our Clientele",
+        "clientList": [
+          {
+            "title": "ECOWAS",
+            "description": "Economic Community of West African States."
+          },
+          {
+            "title": "UN",
+            "description": "United Nations."
+          },
+          {
+            "title": "UNICEF",
+            "description": "United Nations International Children's Emergency Fund."
+          },
+          {
+            "title": "WHO",
+            "description": "World Health Organization."
+          },
+          {
+            "title": "Client 5",
+            "description": "Description for client 5."
+          }
+        ]
+      }
     }
-  }
-  
+    
