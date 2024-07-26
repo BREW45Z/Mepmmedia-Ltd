@@ -46,8 +46,8 @@ const Services: React.FC = () => {
           </div>
         </div>
       </div>
-      <div>
-                <Divider />
+      <div className='mt-10'>
+      <Divider />
             </div>
     </div>
   );

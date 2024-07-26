@@ -4,6 +4,7 @@ import "./globals.css";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Clientele from "./components/Clientele";
+import Team from "./components/Team";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Clientele />
+      <Team />
     </main>
   );
 };

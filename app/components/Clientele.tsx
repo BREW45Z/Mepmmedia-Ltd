@@ -28,8 +28,18 @@ const Clientele: React.FC = () => {
                 )}
               </div>
             ))}
+            <Divider />
+            <a
+            href="/clientele"
+            className="inline-block mt-4 mb-14 px-6 py-3 font-body text-white bg-primary hover:bg-white  hover:text-primary  rounded"
+          >
+            Read More
+          </a>
           </div>
         </div>
+      </div>
+      <div className='lg:mt-10'>
+      <Divider />
       </div>
     </div>
   );

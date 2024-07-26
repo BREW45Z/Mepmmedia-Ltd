@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Divider from './Divider';
 
 const Header: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header: React.FC = () => {
  return (
     <section>
 
-    <nav className="bg-white shadow px-4 lg:px-40 mt-5 dark:bg-gray-800 flex justify-between items-center">
+    <nav className="bg-white py-4 lg:px-40 mt-5 dark:bg-gray-800 flex justify-between items-center">
         <a href="/" className="flex items-center">
           <Image src="/logo.svg" alt="Logo" width={60} height={60} className="h-6 sm:h-9" />
         </a>
@@ -47,6 +48,7 @@ const Header: React.FC = () => {
           <li className="p-4 hover:bg-gray-700"><a href="#">Our Contact</a></li>
         </ul>
       </div>
+      <Divider />
       </section>
   );
 };
